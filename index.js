@@ -1,8 +1,8 @@
 // Write your solution in this file!
 let driver = {};
 
-function updateDriverWithKeyAndValue(driver, Object, key){
-  
+function updateDriverWithKeyAndValue(driver, key, value){
+  driver[key] = value;
 }
 
 function destructivelyUpdateDriverWithKeyAndValue(driver, Object, key){
