@@ -7,17 +7,17 @@ function updateDriverWithKeyAndValue(driver, key, value){
   return new_obj
 }
 
-function destructivelyUpdateDriverWithKeyAndValue(driver, Object, key){
+function destructivelyUpdateDriverWithKeyAndValue(driver, key, value){
   driver[key] = value;
   return driver
   
 }
 
-function deleteFromDriverByKey(driver, Object, key){
+function deleteFromDriverByKey(driver, key, value){
   
 }
 
-function destructivelyDeleteFromDriverByKey(driver, Object, key){
+function destructivelyDeleteFromDriverByKey(driver, key, value){
   
 }
 
